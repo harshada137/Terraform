@@ -1,4 +1,4 @@
-resource "local_file" "Hello World" {
+resource "local_file" "hello" {
     filename = "/root/hello_world.txt"
     content = "Hello, World :)"
 }
